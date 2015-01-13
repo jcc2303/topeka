@@ -108,7 +108,7 @@ this.addEventListener("install", function(e) {
       "components/polymer/polymer.js",
       "components/polymer/polymer.js.map",
       "components/topeka-elements/avatars.html",
-      "components/topeka-elements/categories.json",
+      "components/polymerquiz-elements/categories.json",
       "components/topeka-elements/category-icons.html",
       "components/topeka-elements/category-images.html",
       "components/topeka-elements/images/splash.svg",
