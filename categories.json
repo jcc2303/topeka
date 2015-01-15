@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Polymer Basic",
+        "id": "food",
+        "theme": "green",
+        "quizzes": [
+            {
+                "question": "Which one are the elements that Web Components consist?",
+                "type": "multi-select",
+                "options": [
+                    "Custom Elements",
+                    "HTML Imports",
+                    "Shadow DOM",
+                    "HTML Templates"
+                ],
+                "answer": [0,1,2,3]
+            },
+            {
+                "question": "what libraries are included in the bundle of webcomponents.js?",
+                "type": "multi-select",
+                "options": [
+                    "Custom Elements",
+                    "HTML Imports",
+                    "Shadow DOM",
+                    "WeakMap",
+                    "Mutation Observers",
+                    "HTML Templates"
+                ],
+                "answer": [0,1,2,3,4]
+            },
+            {
+                "question": "Which ones are conceptual Layers of Polymer?",
+                "type": "multi-select",
+                "options": [
+                    "Web components",
+                    "The Polymer library",
+                    "Elements"
+                ],
+                "answer": [0,1,2]
+            },
+            {
+                "question": "What is the old name of webcomponent.js?",
+                "type": "single-select",
+                "options": [
+                    "platform.js"
+                ],
+                "answer": [0]
+            }
+        ]
+    }
+]

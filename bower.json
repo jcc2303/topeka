@@ -1,7 +1,7 @@
 {
-  "name": "topeka",
+  "name": "polymerquiz",
   "version": "0.0.0",
-  "homepage": "https://github.com/Polymer/topeka",
+  "homepage": "https://github.com/Tecla5/polymerquiz",
   "authors": [],
   "description": "",
   "license": "BSD",
@@ -14,7 +14,15 @@
     "tests"
   ],
   "dependencies": {
-    "topeka-elements": "Polymer/topeka-elements#^0.5.0",
-    "polymerquiz-elements": "Tecla5/polymerquiz-elements#master"
+    "core-animated-pages": "Polymer/core-animated-pages#^0.5.0",
+    "core-drawer-panel": "Polymer/core-drawer-panel#^0.5.0",
+    "core-icon-button": "Polymer/core-icon-button#^0.5.0",
+    "core-icons": "Polymer/core-icons#^0.5.0",
+    "core-ajax": "Polymer/core-ajax#^0.5.0",
+    "core-scroll-header-panel": "Polymer/core-scroll-header-panel#^0.5.0",
+    "core-style": "Polymer/core-style#^0.5.0",
+    "font-roboto": "Polymer/font-roboto#^0.5.0",
+    "paper-elements": "Polymer/paper-elements#^0.5.0",
+    "firebase-element": "Polymer/firebase-element#^0.5.0"      
   }
 }
