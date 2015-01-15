@@ -9,27 +9,34 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 <html>
 <head>
-  <title>Quiz App</title>
+  <title>topeka-data</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <script src="components/webcomponentsjs/webcomponents.js"></script>
+  <script src="../../webcomponentsjs/webcomponents.js"></script>
   
-  <link rel="stylesheet" href="theme.css" shim-shadowdom>
-  
-  <link rel="import" href="components/font-roboto/roboto.html">
-  <link rel="import" href="topeka-leaderboard.html">
+  <link rel="import" href="../topeka-datasource.html">
   
 </head>
 <body unresolved>
 
-  <template is="auto-binding">
-
-    <topeka-leaderboard tvmode columns="3" limit="48" layout fit></topeka-leaderboard>
+  <topeka-datasource url="../categories.json"></topeka-datasource>
   
-  </template>
+  <script>
+  
+    addEventListener('polymer-ready', function() {
+  
+      var data = document.querySelector('topeka-datasource');
+      
+      data.addEventListener('core-response', function(e) {
+        console.log(data.user, data.categories);
+      });
+      
+    });
+  
+  </script>
   
 </body>
 </html>

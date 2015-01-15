@@ -49,9 +49,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <link rel="import" href="components/core-icons/core-icons.html">
   <link rel="import" href="components/core-icons/av-icons.html">
   <link rel="import" href="components/core-icons/social-icons.html">
-  <link rel="import" href="components/topeka-elements/topeka-datasource.html">
-  <link rel="import" href="components/topeka-elements/topeka-app.html">
-  <link rel="import" href="components/topeka-elements/theme.html">
+  <link rel="import" href="topeka-datasource.html">
+  <link rel="import" href="topeka-app.html">
+  <link rel="import" href="theme.html">
 
   <script>
     if (navigator.serviceWorker) {
@@ -64,7 +64,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <body>
 
   <template is="auto-binding">
-    <topeka-datasource url="components/polymerquiz-elements/categories.json" user="{{user}}" categories="{{categories}}" connected="{{connected}}"></topeka-datasource>
+    <topeka-datasource url="categories.json" user="{{user}}" categories="{{categories}}" connected="{{connected}}"></topeka-datasource>
     <topeka-app fit user="{{user}}" categories="{{categories}}" connected="{{connected}}" touch-action="auto"></topeka-app>
   </template>
 

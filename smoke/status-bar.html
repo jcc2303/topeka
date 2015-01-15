@@ -9,27 +9,47 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 <html>
 <head>
-  <title>Quiz App</title>
+  <title>topeka-status-bar</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <script src="components/webcomponentsjs/webcomponents.js"></script>
+  <script src="../../webcomponentsjs/webcomponents.js"></script>
   
-  <link rel="stylesheet" href="theme.css" shim-shadowdom>
+  <script src="sampleData.js"></script>
   
-  <link rel="import" href="components/font-roboto/roboto.html">
-  <link rel="import" href="topeka-leaderboard.html">
+  <link rel="stylesheet" href="../topeka-category-themes.css" shim-shadowdom>
+  
+  <link rel="import" href="../../font-roboto/roboto.html">
+  <link rel="import" href="../topeka-status-bar.html">
+  
+  <style>
+  
+    body {
+      font-family: "RobotoDraft", sans-serif;
+    }
+  
+  </style>
   
 </head>
-<body unresolved>
+<body unresolved class="yellow-theme">
 
-  <template is="auto-binding">
-
-    <topeka-leaderboard tvmode columns="3" limit="48" layout fit></topeka-leaderboard>
+  <topeka-status-bar></topeka-status-bar>
   
-  </template>
+  <script>
+  
+    addEventListener('polymer-ready', function() {
+  
+      var s = document.querySelector('topeka-status-bar');
+
+      s.avatar = 1;
+      s.scores = [0, 1, 1, 0];
+      s.category = window.categories[0];
+      
+    });
+  
+  </script>
   
 </body>
 </html>
