@@ -47,5 +47,23 @@
                 "answer": [0]
             }
         ]
-    }
+    },
+    {
+        "name": "Polymer XYZ",
+        "id": "knowledge",
+        "theme": "green",
+        "quizzes": [
+            {
+                "question": "a question",
+                "type": "multi-select",
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                ],
+                "answer": [0,1,2,3]
+            }
+        ]
+    }    
 ]
