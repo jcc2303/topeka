@@ -1,7 +1,43 @@
 [
     {
-        "name": "Polymer Basic",
+        "name": "javascript",
         "id": "food",
+        "theme": "green",
+        "quizzes": [
+            {
+                "question": "a question",
+                "type": "multi-select",
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                ],
+                "answer": [0,1,2,3]
+            }
+        ]
+    },
+    {
+        "name": "foundation",
+        "id": "knowledge",
+        "theme": "green",
+        "quizzes": [
+            {
+                "question": "a question",
+                "type": "multi-select",
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                ],
+                "answer": [0,1,2,3]
+            }
+        ]
+    },
+    {
+        "name": "core (Polymer)",
+        "id": "history",
         "theme": "green",
         "quizzes": [
             {
@@ -47,5 +83,60 @@
                 "answer": [0]
             }
         ]
+    },
+    {
+        "name": "polymer elements",
+        "id": "geography",
+        "theme": "green",
+        "quizzes": [
+            {
+                "question": "a question",
+                "type": "multi-select",
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                ],
+                "answer": [0,1,2,3]
+            }
+        ]
+    },
+    {
+        "name": "polymer UI elements",
+        "id": "science",
+        "theme": "green",
+        "quizzes": [
+            {
+                "question": "a question",
+                "type": "multi-select",
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                ],
+                "answer": [0,1,2,3]
+            }
+        ]
+    },
+    {
+        "name": "main / other",
+        "id": "tvmovies",
+        "theme": "green",
+        "quizzes": [
+            {
+                "question": "a question",
+                "type": "multi-select",
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                ],
+                "answer": [0,1,2,3]
+            }
+        ]
     }
+    
 ]
