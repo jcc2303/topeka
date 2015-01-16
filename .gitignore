@@ -1,4 +1,4 @@
 .DS_Store
 .d8_history
-.divshot-cache
+.divshot-cache/*
 components/*
