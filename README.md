@@ -1,23 +1,15 @@
-Topeka
+Polymerquiz
 ------
 
-There are 2 ways to get your dependencies up-and-running:
+get dependencies up-and-running:
 
-### Direct Git:
+# 1. Checkout topeka
+git clone https://github.com/tecla5/polymerquiz.git
 
-This is the best way to not be broken. The Polymer team doesn't use bower in day-to-day development and so Topeka might be broken more frequently if you use the Bower-based workflow.
+# 2. Make sure you have `npm` and `bower` [installed](http://bower.io/) installed.
+2. `cd polymerquiz` and `bower install`
 
-1. Checkout topeka
-2. Do the following:
+# 3. run 
+python -m SimpleHTTPServer
 
-        mkdir components
-        cd components
-        git clone https://github.com/Polymer/tools.git
-        cd ..
-        ./components/tools/bin/pull-all.sh #get a copy of all of Polymer
 
-### Bower
-
-  1. Checkout topeka
-  1. Make sure you have `npm` and `bower` [installed](http://bower.io/) installed.
-  1. `cd topeka` and `bower install`
